@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template Demo</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f8fb; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    .hero { background: linear-gradient(to right, #2980b9, #6dd5fa); color: white; text-align: center; padding: 80px 20px; }
+    .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.2rem; }
+    .projects { padding: 40px 20px; text-align: center; }
+    .projects h2 { margin-bottom: 20px; color: #2c3e50; }
+    .project-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .card { background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 250px; padding: 15px; }
+    .card img { width: 100%; border-radius: 10px; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio Template Demo</h1>
+    <nav><a href="index.html">Home</a><a href="#projects">Projects</a></nav>
+  </header>
+  <section class="hero">
+    <h1>Showcase Your Work</h1>
+    <p>This is a simple demo portfolio template for developers.</p>
+  </section>
+  <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="card"><img src="https://images.unsplash.com/photo-1559027615-ce3f06c1a49e" alt="Sample App"><h3>Sample Project 1</h3><p>A simple demo project description.</p></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="Sample App"><h3>Sample Project 2</h3><p>Another sample project with a clean card design.</p></div>
+    </div>
+  </section>
+  <footer>© <script>document.write(new Date().getFullYear())</script> Portfolio Template Demo</footer>
+</body>
+</html>
